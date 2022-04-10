@@ -1,0 +1,86 @@
+#include<stdio.h>
+int
+main ()
+{
+  int opt;
+  
+  printf("WHICH OF THE FOLLOWING IS A STAR?\n 1.EARTH\n2.SATURN\n3.SUN\n4.MARS\n");
+  scanf("%d",&opt);
+  
+  switch (opt)
+  
+  {
+      case 1:
+      printf("INCORRECT ANSWER\n");
+       printf("WHICH OF THE FOLLOWING IS NOT A BIRD?\n1.HEN\n2.DUCK\n3.TIGER\n4.OSTRICH\n");
+      break;
+      case 2:
+      printf("INCORRECT ANSWER\n");
+       printf("WHICH OF THE FOLLOWING IS NOT A BIRD?\n1.HEN\n2.DUCK\n3.TIGER\n4.OSTRICH\n");
+      break;
+      case 3:
+      printf("CORRECT ANSWER\n");
+        printf("WHICH OF THE FOLLOWING IS NOT A BIRD?\n1.HEN\n2.DUCK\n3.TIGER\n4.OSTRICH\n");
+      break;
+      case 4:
+      printf("INCORRECT ANSWER\n");
+       printf("WHICH OF THE FOLLOWING IS NOT A BIRD?\n1.HEN\n2.DUCK\n3.TIGER\n4.OSTRICH\n");
+      break;
+      
+      default:
+      printf("YOUR INPUT IS INVALID\n\n");
+       printf("WHICH OF THE FOLLOWING IS NOT A BIRD?\n1.HEN\n2.DUCK\n3.TIGER\n4.OSTRICH\n");
+  }
+  
+
+  scanf("%d",&opt);
+  
+  switch (opt)
+  
+  {
+       case 1:
+      printf("INCORRECT ANSWER\n");
+      printf("WHICH OF THE FOLLOWING IS OUR NATIONAL BIRD?\n1.HEN\n2.OSTRICH\n3.PEACOCK\n4.OWL\n");
+      break;
+      case 2:
+      printf("INCORRECT ANSWER\n");
+        printf("WHICH OF THE FOLLOWING IS OUR NATIONAL BIRD?\n1.HEN\n2.OSTRICH\n3.PEACOCK\n4.OWL\n");
+      break;
+      case 3:
+      printf("CORRECT ANSWER\n");
+      break;
+      case 4:
+      printf("INCORRECT ANSWER\n");
+        printf("WHICH OF THE FOLLOWING IS OUR NATIONAL BIRD?\n1.HEN\n2.OSTRICH\n3.PEACOCK\n4.OWL\n");
+      break;
+      
+      default:
+      printf("YOUR INPUT IS INVALID\n");
+        printf("WHICH OF THE FOLLOWING IS OUR NATIONAL BIRD?\n1.HEN\n2.OSTRICH\n3.PEACOCK\n4.OWL\n");
+  }
+  
+   scanf("%d",&opt);
+  
+  switch (opt)
+  
+  {
+      
+      case 1:
+      printf("INCORRECT ANSWER");
+      break;
+      case 2:
+      printf("INCORRECT ANSWER");
+      break;
+      case 3:
+      printf("CORRECT ANSWER");
+      break;
+      case 4:
+      printf("INCORRECT ANSWER");
+      break;
+      
+      default:
+      printf("YOUR INPUT IS INVALID");
+  }
+  
+  
+}
